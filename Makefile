@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-Wall -I.
 LDLIBS=-ldl
 TARGET=spotify-adblock
-PREFIX=/usr/local
+PREFIX=/usr
 
 .PHONY: all
 all: $(TARGET).so
